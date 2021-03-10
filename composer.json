@@ -1,0 +1,16 @@
+{
+    "name": "ramy/solid-in-php-crash-course",
+    "description": "SOLID in PHP example",
+    "authors": [
+        {
+            "name": "abdelrahman gad",
+            "email": "abdelrahmangad95@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Classes\\": "Classes"
+        }
+    }
+}
