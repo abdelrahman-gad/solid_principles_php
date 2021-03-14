@@ -1,17 +1,10 @@
 <?php 
 
 namespace Classes;
-use Interfaces\PlayerInterface;
-class DefencePlayer implements PlayerInterface{
-    public function Attack(){
-    
-    }
-
-    public function Defense(){
+use Interfaces\DefenceInterface;
+class DefencePlayer implements DefenceInterface{
+ 
+    public function Defence(){
        return "defence";
-    }
-
-    public function Keeping(){
-       
     }
 }

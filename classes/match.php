@@ -16,8 +16,7 @@ class Match
         echo "start match";
         echo "<br/>";
         foreach($this->playerList as $player){
-            $player->play();
-            echo "<br/>";
+          echo "player";
         }
 
     }

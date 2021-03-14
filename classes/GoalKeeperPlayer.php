@@ -1,17 +1,10 @@
 <?php 
 
 namespace Classes;
-use Interfaces\PlayerInterface;
+use Interfaces\KeepingInterface;
 use Players\ElhadaryChild;
 use Players\ElhadaryFather;
-class GoalKeeperPlayer implements PlayerInterface{
-    public function Attack(){
-    
-    }
-
-    public function Defense(){
-       
-    }
+class GoalKeeperPlayer implements  KeepingInterface{
 
     public function Keeping(){
        return "goal Keeping";
