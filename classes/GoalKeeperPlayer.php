@@ -5,9 +5,16 @@ use Interfaces\PlayerInterface;
 use Players\ElhadaryChild;
 use Players\ElhadaryFather;
 class GoalKeeperPlayer implements PlayerInterface{
-    public function play(){
-        $keeper = new ElhadaryChild;
-        echo $keeper->keeping();
+    public function Attack(){
+    
+    }
+
+    public function Defense(){
+       
+    }
+
+    public function Keeping(){
+       return "goal Keeping";
     }
 }
  

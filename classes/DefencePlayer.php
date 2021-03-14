@@ -3,7 +3,15 @@
 namespace Classes;
 use Interfaces\PlayerInterface;
 class DefencePlayer implements PlayerInterface{
-    public function play(){
-        echo "Defence";
+    public function Attack(){
+    
+    }
+
+    public function Defense(){
+       return "defence";
+    }
+
+    public function Keeping(){
+       
     }
 }
