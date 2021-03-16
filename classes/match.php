@@ -17,14 +17,7 @@ class Match
         echo "start match";
         echo "<br/>";
         foreach($this->playerList as $player){
-           if($player instanceof AttackPlayer){
-               $player->Attack();
-           }else if($player instanceof DefencePlayer){
-               $player->Defence();
-           }else if($player instanceof GoalKeeperPlayer){
-              $player->Keeping();
-           }
-
+          $player->play();
         }
 
     }
