@@ -5,7 +5,7 @@ use Interfaces\AttackInterface;
 
 class AttackPlayer implements AttackInterface{
     public function Attack(){
-      return "attack";
+      echo "attack</br>";
     }
   
 }

@@ -5,6 +5,6 @@ use Interfaces\DefenceInterface;
 class DefencePlayer implements DefenceInterface{
  
     public function Defence(){
-       return "defence";
+       echo "defence</br>";
     }
 }
