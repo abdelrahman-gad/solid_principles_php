@@ -6,8 +6,8 @@ class Document{
     protected $content;
 
     public function __construct(string $title ,string $content){
-    $this->title=$title;
-    $this->content=$content;
+        $this->title=$title;
+        $this->content=$content;
     }
 
     public function getTitle():string
